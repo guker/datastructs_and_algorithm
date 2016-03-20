@@ -220,6 +220,7 @@ void DFSTraverse(Graph G)
         visited[i] = 0;
 
     printf("DFS: ");
+    // 遍历所有顶点，避免非连通图
     for (i = 0; i < G.vexnum; i++)
     {
         //printf("\n== LOOP(%d)\n", i);
